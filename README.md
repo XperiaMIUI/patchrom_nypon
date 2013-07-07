@@ -12,7 +12,7 @@ Get started
  $ git clone -b jellybean git://github.com/MiCode/patchrom_build.git build <br>
  $ git clone -b jellybean git://github.com/MiCode/patchrom_miui.git miui <br>
  $ git clone -b jellybean git://github.com/MiCode/patchrom_tools.git tools <br>
- $ git clone -b master git://github.com/sijav/patchrom_nypone.git nypone <br>
+ $ git clone -b master git://github.com/XperiaMIUI/patchrom_nypon.git nypon <br>
  
  - for patchrom fix run <br>
  $ ./fix_patchrom.sh <br>
@@ -22,7 +22,7 @@ Get started
 Export path
 -----------
 
- $ . build/envsetup.sh -p nypone <br>
+ $ . build/envsetup.sh -p nypon <br>
  $ export PATH=$PATH:/path_to/micode/tools <br>
  
  
@@ -30,7 +30,7 @@ Export path
 Build your rom
 --------------
 
- $ cd nypone <br>
+ $ cd nypon <br>
  $ make fullota <br>
  
  
